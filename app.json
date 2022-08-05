@@ -1,0 +1,14 @@
+{
+  "name": "sharelist快速部署",
+  "description": "Deploy sharelist to Heroku.",
+  "keywords": ["sharelist"],
+  "env": {
+    "Version": {
+      "description": "sharelist版本号（必须是二进制版本）",
+      "value": "v0.3.15"
+    }
+  },
+  "website": "https://github.com/yaoxiaonie/sharelist-heroku",
+  "repository": "https://github.com/yaoxiaonie/sharelist-heroku",
+  "stack": "container"
+ }
