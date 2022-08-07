@@ -20,4 +20,5 @@ else
 fi
 
 # Start
-/sharelist/sharelist
+cd /sharelist
+./sharelist
