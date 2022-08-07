@@ -15,3 +15,12 @@
 | HEROKU_API_KEY    | heroku API key，在 account 设置下可以找到 |
 
 > 这样Token一定必须是大写。。请在 heroku 网站创建app，来确保项目的名字的唯一性。
+
+## Heroku部署问题
+
+如果遇到：
+
+> We couldn't deploy your app because the source code violates the Salesforce Acceptable Use and External-Facing Services Policy.
+
+请Fork一下仓库，然后在自己的仓库下点击。
+
