@@ -10,11 +10,15 @@
 
 | Name              | Description                                |
 | ----------------- | ------------------------------------------ |
-| APP_NAME          | 就是你 heroku 项目的名字. 如果你是第一次创建APP，**请确保名字是唯一的**|
-| EMAIL             | heroku 账户的 email                      |
-| HEROKU_API_KEY    | heroku API key，在 account 设置下可以找到 |
+| APP_NAME          | 就是你 Heroku 项目的名字. 如果你是第一次创建APP，**请确保名字是唯一的**|
+| EMAIL             | Heroku 账户的 Email                      |
+| HEROKU_API_KEY    | Heroku API key，在 account 设置下可以找到 |
 
-> 这样Token一定必须是大写。。请在 heroku 网站创建app，来确保项目的名字的唯一性。
+同时要在Heroku的app后台设置好Config Vars
+| KEY               | VALUE                                      |
+| ----------------- | ------------------------------------------ |
+| sharelistVersion  | sharelist的版本号（默认latest）              |
+| sharelistConfig   | sharelist导出的配置（填{}可以跳过）          |
 
 ## Heroku部署问题
 
@@ -23,4 +27,3 @@
 > We couldn't deploy your app because the source code violates the Salesforce Acceptable Use and External-Facing Services Policy.
 
 请Fork一下仓库，然后在自己的仓库下点击。
-
