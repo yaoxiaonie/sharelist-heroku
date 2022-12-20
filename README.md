@@ -1,3 +1,7 @@
+##  教程
+https://blog.zz423.top/posts/9265a828.html
+（如果您在 2022 年 11 月 28 日之后阅读此内容,那么是的,Heroku 停止了其免费套餐,并且不活动的帐户(超过一年)也将被删除，但是不影响搭建sharelist。）
+
 ## 一键部署 [ShareList](https://github.com/reruin/sharelist) 到 HeroKu 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
